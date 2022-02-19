@@ -193,6 +193,9 @@ footer .footer--section {
     gap: 4rem;
     align-items: center;
 }
+.login__details a{
+    color: var(--dark);
+}
 .card__newArrival:hover {
     background-color: var(--wheat);
     border-radius: .5rem;

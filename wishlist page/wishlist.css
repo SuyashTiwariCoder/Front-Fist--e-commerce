@@ -1,0 +1,28 @@
+.wishlist--mainContent {
+    min-height: 90vh;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.wishlist--cardContainer {
+    margin: 0 10rem;
+    min-height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    place-items: center;
+}
+
+.removeFromWishlist {
+    width: 100%;
+    border: none;
+    background-color: var(--danger);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.addToCart {
+    width: 85%;
+}
