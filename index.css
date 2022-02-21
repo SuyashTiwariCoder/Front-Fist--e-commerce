@@ -243,6 +243,9 @@ footer ul {
     list-style-type: none;
     cursor: pointer;
 }
+.socials a{
+    color: white;
+}
 button:hover {
     transform: scale(1.05);
     box-shadow: -1px 0px 27px -9px rgba(0, 0, 0, 0.5);
@@ -250,4 +253,507 @@ button:hover {
 }
 .p-0-2 {
     padding: 2px;
+}
+
+
+/* Media queries  */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {   
+
+.nav__logo{
+font-size: 2em;
+}
+.search__container{
+    padding: 1px;
+    width: 90%;
+    
+}
+.search__container input{
+    width: 90%;
+}
+.search__container input::placeholder{
+    font-size: 1rem;
+}
+.login__details{
+    gap: 2em;
+}
+.login__details a i {
+    font-size: 1.3em;
+}
+
+.login__details button{
+    width: 4em;
+    font-size: 1em;
+}
+
+.categories{
+    height: 3vh;
+    font-size: .9em;
+}
+.heroImage__container{
+    height: auto;
+   
+}
+
+.heroImage__container img{
+    height: 30em;
+  
+}
+.hero__heading {
+    font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+   
+    
+}
+.hero__heading button{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 15rem;
+    position: unset;
+  
+}
+
+h2{
+    font-size: 2em;
+    padding: 1em;
+}
+.card__newArrival{
+    width: 11em;
+}
+.card__newArrival img{
+    height: 12.5em;
+}
+.img--info , .img--price{
+    font-size: 1em;
+}
+.newArrival__carasoul{
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.section--content{
+    height: 25em;
+}
+.section--content__para{
+    font-size: 1em;
+    line-height: 2rem;
+    margin: 0 1em;
+}
+.collection--item{
+    size: 1em;
+}
+.collection--item img{
+    height: 12.5em;
+    width: 10em;
+}
+footer{
+    padding: 1em;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer--heading{
+    font-size: 1.4em;
+}
+.footer--section li{
+    font-size: 1em;
+    line-height: 1.9em;
+}
+
+
+.footer--last{
+    font-size: .7em;
+}
+
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .nav__logo{
+        font-size: 3em;
+        }
+    
+    
+        .login__details a i {
+            font-size: 2em;
+        }
+        
+        .login__details button{
+            width: 6em;
+            font-size: 1.3em;
+        }
+
+        .categories{
+            height: 3vh;
+            font-size: 1em;
+        }
+
+        .heroImage__container img{
+            height: 50em;
+          
+        }
+        .hero__heading {
+            font-size: 2rem;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+           
+            
+        }
+        .hero__heading button{
+            font-size: 1.5rem;
+            padding: 1rem;
+            width: 15rem;
+            position: unset;
+          
+        }
+        
+        h2{
+            font-size: 2em;
+            padding: 1em;
+        }
+
+        .card__newArrival{
+            width: 18em;
+        }
+        .card__newArrival img{
+            height: 20em;
+        }
+        .img--info , .img--price{
+            font-size: 1.3em;
+        }
+        .newArrival__carasoul{
+            padding: 1.4rem;
+           
+             
+                overflow-y: scroll;
+            
+            
+        }
+
+
+
+        .section--content{
+            height: 35em;
+        }
+        .section--content__para{
+            font-size: 1.2em;
+            line-height: 2rem;
+            padding: 0 1rem;
+        }
+
+
+        footer{
+            gap: 1rem;
+        }
+
+
+
+
+
+
+      
+        .section--content__para{
+            font-size: 1em;
+            line-height: 2rem;
+            margin: 0 1em;
+        }
+        .collection--item{
+            size: 1em;
+        }
+        .collection--item img{
+            height: 12.5em;
+            width: 10em;
+        }
+        footer{
+            padding: 1em;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .footer--heading{
+            font-size: 1.4em;
+        }
+        .footer--section li{
+            font-size: 1em;
+            line-height: 1.9em;
+        }
+        
+        
+        .footer--last{
+            font-size: .7em;
+        }
+        
+
+
+
+
+
+
+
+
+
+    }
+    
+    
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+
+    .nav__logo{
+        font-size: 3.5em;
+        }
+    
+    
+        .login__details a i {
+            font-size: 2rem;
+        }
+        
+        .login__details button{
+            width: 6em;
+            font-size: 1.3em;
+        }
+
+        .categories{
+            height: 3vh;
+            font-size: 1em;
+        }
+
+        .heroImage__container img{
+            height: 60em;
+          
+        }
+        .hero__heading {
+            font-size: 3rem;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+           
+            
+        }
+        .hero__heading a {
+            display: grid;
+            place-items: center;
+        }
+
+
+        .hero__heading button{
+            font-size: 1.5rem;
+            padding: 1rem;
+            width: 15rem;
+            position: unset;
+          
+        }
+        
+        h2{
+            font-size: 2em;
+            padding: 1em;
+        }
+
+        .card__newArrival{
+            width: 18em;
+        }
+        .card__newArrival img{
+            height: 20em;
+        }
+        .img--info , .img--price{
+            font-size: 1.3em;
+        }
+        .newArrival__carasoul{
+            padding: 1.4rem;
+           
+             
+                overflow-y: scroll;
+            
+            
+        }
+
+
+
+        .section--content{
+            height: 35em;
+        }
+        .section--content__para{
+            font-size: 1.2em;
+            line-height: 2rem;
+            padding: 0 1em;
+        }
+
+
+        footer{
+            gap: 1rem;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+    .nav__logo{
+        font-size: 4em;
+        }
+    
+    
+        .login__details a i {
+            font-size: 2em;
+        }
+        
+        .login__details button{
+            width: 8em;
+            font-size: 1.3em;
+        }
+
+        .categories{
+            height: 3vh;
+            font-size: 1em;
+           
+        }
+
+        .heroImage__container img{
+            height: 65rem;
+          
+        }
+        .hero__heading {
+            font-size: 5rem;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+           
+            
+        }
+        .hero__heading button{
+            font-size: 2rem;
+            padding: 1.5rem;
+            width: 18rem;
+            position: unset;
+          
+        }
+        .hero__heading a {
+            text-decoration: none;
+        }
+        
+        h2{
+            font-size: 2em;
+            padding: 1em;
+        }
+
+        .card__newArrival{
+            width: 18em;
+            padding: 2rem;
+        }
+        .card__newArrival img{
+            height: 20em;
+        }
+        .img--info , .img--price{
+            font-size: 1.3em;
+        }
+        .newArrival__carasoul{
+            padding: 1.4rem;
+           
+             
+                overflow-y: scroll;
+            
+            
+        }
+
+
+
+        .section--content{
+            height: 40em;
+        }
+        .section--content__para{
+            font-size: 1.4rem;
+            line-height: 3rem;
+            padding: 0 1rem;
+        }
+
+
+        footer{
+            gap: 1rem;
+        }
+
+
+
+
+
+
+      
+        .section--content__para{
+            font-size: 1em;
+            line-height: 2rem;
+            margin: 0 1em;
+        }
+       
+        .collection--item img{
+            height: 20em;
+            width: 18em;
+        }
+        footer{
+            padding: 1em;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .footer--heading{
+            font-size: 1.4em;
+        }
+        .footer--section li{
+            font-size: 1em;
+            line-height: 1.9em;
+        }
+        
+        
+        .footer--last{
+            font-size: .7em;
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
